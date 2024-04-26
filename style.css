@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+.nameBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px;
+    width: 465px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+.formBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: -1px -6px 16px 0px;
+    width: 340px;
+    height: 448px;
+    margin-top: 21px;
+
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    font-size: 20px;
+}
+.input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+}
